@@ -39,6 +39,10 @@ strong {
     border-radius: 15px;
 }
 
+.message{
+    color: #ffffff;
+}
+
 .score {
     font-size: 24px;
     font-weight: bold;
