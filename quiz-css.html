@@ -17,7 +17,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1e1e1e;">
         <div class="container">
-            <a class="navbar-brand" href="index.html">CodePulse Academy</a>
+            <img src="Asset/logo.png.JPG" alt="Logo" style="width: 40px; height: 40px;" class="me-2">
+            <a class="navbar-brand" href="index.html"> CodePulse Academy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +45,7 @@
             </div>
         </div>
     </nav>
-    
+
     <section class="flex-grow-1 container my-5">
         <h1>Quiz : CSS</h1>
         <p>Test your knowledge and track your progress!</p>
@@ -55,35 +56,37 @@
             <form id="quizForm">
                 <!-- Question 1 -->
                 <div class="mb-4">
-                    <label for="question1" class="form-label">1. What does HTML stand for?</label>
+                    <label for="question1" class="form-label">1. Which property is used to change the background color
+                        of an element?
+                    </label>
                     <select id="question1" class="form-select" required onchange="updateProgress()">
                         <option value="" disabled selected>Select your answer</option>
-                        <option value="correct">HyperText Markup Language</option>
-                        <option value="incorrect">Home Tool Markup Language</option>
-                        <option value="incorrect">Hyperlinks and Text Markup Language</option>
+                        <option value="correct">background-color</option>
+                        <option value="incorrect">color</option>
+                        <option value="incorrect">border-color</option>
                     </select>
                 </div>
 
                 <!-- Question 2 -->
                 <div class="mb-4">
-                    <label for="question2" class="form-label">2. Which HTML tag is used to create a hyperlink?</label>
+                    <label for="question2" class="form-label">2. Which of the following values is NOT valid for the
+                        position property?</label>
                     <select id="question2" class="form-select" required onchange="updateProgress()">
                         <option value="" disabled selected>Select your answer</option>
-                        <option value="correct">&lt;a&gt;</option>
-                        <option value="incorrect">&lt;link&gt;</option>
-                        <option value="incorrect">&lt;href&gt;</option>
+                        <option value="correct">center</option>
+                        <option value="incorrect">fixed</option>
+                        <option value="incorrect">absolute</option>
                     </select>
                 </div>
 
                 <!-- Question 3 -->
                 <div class="mb-4">
-                    <label for="question3" class="form-label">3. What is the correct syntax for adding a background
-                        color in CSS?</label>
+                    <label for="question3" class="form-label">3. How can you make text bold in CSS?</label>
                     <select id="question3" class="form-select" required onchange="updateProgress()">
                         <option value="" disabled selected>Select your answer</option>
-                        <option value="correct">background-color: red;</option>
-                        <option value="incorrect">color-background: red;</option>
-                        <option value="incorrect">bg-color: red;</option>
+                        <option value="correct">font-weight: bold;</option>
+                        <option value="incorrect">font-style: bold;</option>
+                        <option value="incorrect">text-decoration: bold;</option>
                     </select>
                 </div>
 
@@ -102,19 +105,19 @@
     </section>
 
 
-  <!-- Footer -->
-  <footer class="text-white py-3" style="background-color: #1e1e1e;">
-    <nav class="footer-nav text-center">
-      <a href="resources.html">Resources</a>
-      <a href="feedback.html">Feedback</a>
-      <a href="aboutUs.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
-    <div class="container text-center">
-      <p>&copy; 2024 CodePulse Academy. All rights reserved.</p>
-      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="text-white py-3" style="background-color: #1e1e1e;">
+        <nav class="footer-nav text-center">
+            <a href="resources.html">Resources</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="container text-center">
+            <p>&copy; 2024 CodePulse Academy. All rights reserved.</p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
 </body>
 
 </html>

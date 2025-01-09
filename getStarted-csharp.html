@@ -20,7 +20,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">CodePulse Academy</a>
+            <img src="Asset/logo.png.JPG" alt="Logo" style="width: 40px; height: 40px;" class="me-2">
+            <a class="navbar-brand" href="index.html"> CodePulse Academy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,11 +59,11 @@
         <div class="row align-items-center mb-5">
             <div class="col-md-6">
                 <h2>Learn C++</h2>
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent
-                    delectus delicata usu.</p>
+                <p>C++ is a powerful, general-purpose programming language used for system/software development, game
+                    development, and performance-critical applications. It extends C with object-oriented features.</p>
 
-                <button class="btn btn-primary" onclick="location.href='#introduction'">Tutorial</button>
-                <button class="btn btn-secondary">Doc</button>
+                <button class="btn btn-primary" onclick="location.href='#introduction'">Introduction</button>
+
             </div>
 
             <!-- carousel thingy -->
@@ -103,11 +104,12 @@
             <!-- Lesson 1 -->
             <div class="row my-4">
                 <div class="col-md-8">
-                    <h3>Lesson 1: Basic Structure of HTML</h3>
+                    <h3>Lesson 1: Getting Started with C++
+                    </h3>
                     <p>
-                        Learn how to create the foundation of your webpage with HTML. This lesson will guide you
-                        through
-                        creating tags, attributes, and elements to structure your content effectively.
+                        C++ is a powerful programming language used for systems and application development. In this
+                        lesson, learn basic syntax, variables, and input/output operations.
+
                     </p>
                     <button class="btn btn-primary" onclick="location.href='#lesson1'">Let's learn</button>
                 </div>
@@ -120,11 +122,12 @@
             <!-- Lesson 2 -->
             <div class="row my-4">
                 <div class="col-md-8">
-                    <h3>Lesson 2: Working with HTML Elements</h3>
+                    <h3>Lesson 2: Control Structures
+                    </h3>
                     <p>
-                        Dive deeper into HTML elements like headings, paragraphs, links, images, and lists.
-                        Understand
-                        how to use semantic tags to enhance accessibility and SEO.
+                        Understand how to control program flow using loops (for, while) and conditional statements (if,
+                        else). Practice solving problems with structured logic.
+
                     </p>
                     <button class="btn btn-primary" onclick="location.href='#lesson2'">Let's learn</button>
                 </div>
@@ -137,11 +140,12 @@
             <!-- Lesson 3 -->
             <div class="row my-4">
                 <div class="col-md-8">
-                    <h3>Lesson 3: Forms and Inputs</h3>
+                    <h3>
+                        Lesson 3: Functions and Arrays
+                    </h3>
                     <p>
-                        Learn how to create interactive forms using input fields, buttons, dropdowns, and
-                        checkboxes. This
-                        lesson will teach you how to collect and process user data effectively.
+                        Learn how to create reusable code using functions and manage data efficiently using arrays. This
+                        lesson covers key concepts for organizing your programs.
                     </p>
                     <button class="btn btn-primary" onclick="location.href='#lesson3'">Let's learn</button>
                 </div>
@@ -160,29 +164,28 @@
     <section id="lesson1" class="container mt-5 py-5">
 
         <div class="container">
-            <h2 class="text-center">Lesson 1: Basic Structure of HTML</h2>
-            <p class="text-center text-muted">
-                Understand the fundamental building blocks of HTML and how to set up your first webpage.
-            </p>
+            <h2 class="text-center">Lesson 1: Getting Started with C++
+            </h2>
             <div class="row">
                 <div class="col-md-6">
-                    <h3>What is HTML?</h3>
-                    <p>
-                        HTML stands for HyperText Markup Language. It is the standard language used to create webpages.
-                        HTML
-                        describes the structure of a webpage using elements represented by tags.
-                    </p>
                     <ul>
-                        <li><b>Tags:</b> Define the start and end of an element (e.g., `<html>`, `
-
-                            </html>`).</li>
-                        <li><b>Attributes:</b> Provide additional information about elements (e.g., `class`, `id`).</li>
-                        <li><b>Elements:</b> The combination of tags and content (e.g., `<p>This is a paragraph.</p>`).
+                        <li>Set up the development environment using a compiler (e.g., GCC) or IDE (e.g., Visual
+                            Studio).
+                        </li>
+                        <li> Understand the structure of a C++ program, including the #include directive for importing
+                            libraries like "iostream" and the main() function, which is the entry point of every
+                            program.
+                        </li>
+                        <li> Use cout for printing messages to the console and cin for accepting user input from the
+                            user.
+                        </li>
+                        <li>
+                            Practice declaring variables (int, float, char, etc.) and performing simple operations.
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="Asset/lesson1.jpg.png" class="img-fluid rounded" alt="HTML Basics">
+                    <img src="Asset/csharplearn1.jpg" class="img-fluid rounded" alt="HTML Basics">
                 </div>
             </div>
 
@@ -192,26 +195,22 @@
     <!-- Lesson 2 Section -->
     <section id="lesson2" class="container mt-5 py-5">
         <div class="container">
-            <h2 class="text-center">Lesson 2: Working with HTML Elements</h2>
-            <p class="text-center text-muted">
-                Learn how to use common HTML elements to build structured and accessible content for your webpage.
-            </p>
+            <h2 class="text-center">Lesson 2: Control Structures</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Common HTML Elements</h3>
-                    <p>
-                        HTML elements are the building blocks of a webpage. Here are some key elements you'll work with:
-                    </p>
                     <ul>
-                        <li><b>Headings:</b> Define the titles and subtitles (`<h1>` to `<h6>`).</li>
-                        <li><b>Paragraphs:</b> Add text content (`<p>`).</li>
-                        <li><b>Links:</b> Create hyperlinks to other pages (`<a href="url">Link</a>`).</li>
-                        <li><b>Lists:</b> Use ordered (`<ol>`) and unordered lists (`<ul>`).</li>
-                        <li><b>Images:</b> Insert images with the `<img>` tag.</li>
+                        <li>Use if, else if, and else statements for decision-making to execute specific code based on
+                            conditions.
+                        </li>
+                        <li> Implement loops (for, while, do-while) to repeat a block of code until a condition is met.
+                        </li>
+                        <li>Practice solving problems like checking if a number is positive, negative, or zero, and
+                            creating a countdown timer using loops.</li>
+
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://via.placeholder.com/450x300" class="img-fluid rounded" alt="HTML Elements">
+                    <img src="Asset/csharplearn2.jpg" class="img-fluid rounded" alt="HTML Elements">
                 </div>
             </div>
         </div>
@@ -220,38 +219,19 @@
     <!-- Lesson 3 Section -->
     <section id="lesson3" class="container mt-5 py-5">
         <div class="container">
-            <h2 class="text-center">Lesson 3: Forms and Inputs</h2>
-            <p class="text-center text-muted">
-                Master the art of creating forms and collecting user inputs to make your website interactive.
-            </p>
+            <h2 class="text-center">Lesson 3: Functions and Array </h2>
             <div class="row">
                 <div class="col-md-6">
-                    <h3>HTML Forms</h3>
-                    <p>
-                        Forms are used to collect user data and send it to a server for processing. A basic form
-                        includes:
-                    </p>
                     <ul>
-                        <li><b>Form Tag:</b> `<form>` defines the form container.</li>
-                        <li><b>Input Fields:</b> `<input>` for text, password, email, etc.</li>
-                        <li><b>Labels:</b> `<label>` provides descriptions for input fields.</li>
-                        <li><b>Buttons:</b> `<button>` or `<input type="submit">` for submission.</li>
+                        <li>Functions: Define reusable blocks of code with a syntax of returnType
+                            functionName(parameters) and call them within the program.</li>
+                        <li>Arrays: Store multiple values of the same type using a single variable. Access elements
+                            using indices (starting at 0) and iterate through arrays with loops.</li>
+                        <li> Combine functions and arrays to perform operations like summing array elements.</li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <h3>Example Form</h3>
-                    <form>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" class="form-control mb-2">
-
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" class="form-control mb-2">
-
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" class="form-control mb-3">
-
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    <img src="Asset/csharplearn3.jpg" class="img-fluid rounded" alt="HTML Elements">
                 </div>
             </div>
             <a href="quiz-csharp.html" class="button">Try the quiz</a>
@@ -264,19 +244,19 @@
         <div class="progress-bar" id="progressBar"></div>
     </div>
 
-  <!-- Footer -->
-  <footer class="text-white py-3" style="background-color: #1e1e1e;">
-    <nav class="footer-nav text-center">
-      <a href="resources.html">Resources</a>
-      <a href="feedback.html">Feedback</a>
-      <a href="aboutUs.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
-    <div class="container text-center">
-      <p>&copy; 2024 CodePulse Academy. All rights reserved.</p>
-      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="text-white py-3" style="background-color: #1e1e1e;">
+        <nav class="footer-nav text-center">
+            <a href="resources.html">Resources</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="container text-center">
+            <p>&copy; 2024 CodePulse Academy. All rights reserved.</p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
 </body>
 
 

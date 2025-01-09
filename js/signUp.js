@@ -14,3 +14,7 @@ function switchToSignUp() {
 function showError() {
   alert('An error occurred. Please try again later.');
 }
+
+function redirectToIndex() {
+  window.location.href = "index.html";
+}
