@@ -1,0 +1,253 @@
+:root {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #ff6f61;
+  --secondary-color: #56cfe1;
+  --accent-color: #ffc300;
+  --card-bg: #1e1e1e;
+}
+/* dsdsdsds */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1{
+  color: #ff6f61
+}
+
+
+/* Main content should grow to fill available space */
+main {
+  flex: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1e1e1e;
+}
+
+footer .footer-nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+
+/* sdsdsdsd */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.nav a {
+  color: var(--text-color);
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}
+
+.navbar{
+  background-color: #1e1e1e;
+}
+
+.sign-up {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.sign-up:hover {
+  transform: scale(1.1);
+}
+
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide.active {
+  display: block;
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn {
+  color: #1e1e1e;
+  background-color: #ff6f61;
+}
+
+.about {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-item {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.social-item:hover {
+  transform: scale(1.1);
+  color: var(--accent-color);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.team {
+  padding: 2rem;
+  text-align: center;
+}
+
+.team h2 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.member {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.member:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.image-placeholder {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--card-bg);
+}
+
+.footer-nav a {
+  margin-right: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--accent-color);
+}
+
+.social .icon {
+  margin: 0 0.5rem;
+  color: var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.social .icon:hover {
+  transform: scale(1.2);
+}
+
+/* Animation for hover and fade */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,21 @@
+.login-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    background-color: #495057;
+  }
+  
+  .form-switch {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
